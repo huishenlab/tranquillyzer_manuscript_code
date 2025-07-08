@@ -12,14 +12,14 @@
 
 #~ https://github.com/gaolabtools/scNanoGPS?tab=readme-ov-file#installation
 #~ conda create -n scNanoGPS_v2 python=3.11 numpy scipy
-#                                                                                                                                                                                                                  
-# To activate this environment, use                                                                                                                                                                                
-#                                                                                                                                                                                                                  
-#     $ conda activate scNanoGPS_v2                                                                                                                                                                                   
-#                                                                                                                                                                                                                  
-# To deactivate an active environment, use                                                                                                                                                                         
-#                                                                                                                                                                                                                  
-#     $ conda deactivate  
+#
+# To activate this environment, use
+#
+#     $ conda activate scNanoGPS_v2
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
 
 # then install more dependencies
 conda install -c conda-forge biopython=1.80 # this requires python >=3.10,<3.11.0a0

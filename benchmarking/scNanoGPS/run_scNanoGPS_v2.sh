@@ -7,7 +7,7 @@
 
 # this is a bash script showing the call framework to scNanoGPS
 
-# NUMBER OF READ # --- only parameter that needs chaning & the -o option
+# NUMBER OF READS # --- only parameter that needs changing & the -o option
 nreads=5_mil # e.g. 5_mil 25_mil 50_mil 75_mil 100_mil, 3p_repeat, 500-1000bp etc.
 
 # set required variables
@@ -27,7 +27,7 @@ ANNOVAR_XREF="tools/annovar/hg38db/omim/gene_xref.txt"
 # initialize conda env
 conda init bash
 source ~/.bashrc  # Ensures the Conda environment is initialized
-conda activate scNanoGPS_v2    
+conda activate scNanoGPS_v2
 
 echo "Active Conda environment: $(conda info --envs | grep '*' | awk '{print $1}')"
 echo "Active python: $(which python)"
