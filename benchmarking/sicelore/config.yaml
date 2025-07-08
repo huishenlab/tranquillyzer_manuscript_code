@@ -1,0 +1,25 @@
+# Path to cloned sicelore 2.1 repo
+# (EDIT WITH YOUR PATH)
+sicelore: "/path/to/sicelore-2.1"
+
+# Splice junction BED created following instructions from minimap2
+# (EDIT WITH YOUR PATH)
+juncbed: "/path/to/hg38_gencode.junction.bed"
+
+# Reference FASTA used in minimap2 alignment (created via create_ref_files.sh)
+# (EDIT WITH YOUR PATH)
+minimapfasta: "/path/to/hg38_gencode.fa"
+
+# RefFlat file (created via create_ref_files.sh)
+# (EDIT WITH YOUR PATH)
+refflat: "/path/to/hg38_gencode.refFlat"
+
+# Name of directory where nextflow intermediate files are placed
+workdir: "intermediate_files"
+
+# Name of directory where final pipeline files can be found
+outdir: "final_files"
+
+# Slurm partition name
+# (EDIT WITH YOUR PARTITION NAME)
+partition: "partition_name"
