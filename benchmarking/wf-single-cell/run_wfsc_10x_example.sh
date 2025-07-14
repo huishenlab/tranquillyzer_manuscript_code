@@ -1,10 +1,10 @@
 #!/bin/bash
 #SBATCH --mail-user=*@vai.org
 #SBATCH --mail-type=end,fail
-#SBATCH --job-name=wfsc_long_reads
+#SBATCH --job-name=wfsc_example
 #SBATCH --mem=256G
-#SBATCH --output wfsc_run_10x_long_reads.o
-#SBATCH --error wfsc_run_10x_long_reads.e
+#SBATCH --output wfsc_run_10x_example.o
+#SBATCH --error wfsc_run_10x_example.e
 #SBATCH -t 3-00:00:00
 #SBATCH --cpus-per-task 64
 #SBATCH --array=1-4
